@@ -1,0 +1,32 @@
+{
+  "name": "dvd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack build",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeckMeIfYouCan/DVD.git"
+  },
+  "keywords": [
+    "animation",
+    "node"
+  ],
+  "author": "HeckMeIfYouCan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeckMeIfYouCan/DVD/issues"
+  },
+  "homepage": "https://github.com/HeckMeIfYouCan/DVD#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
+}
